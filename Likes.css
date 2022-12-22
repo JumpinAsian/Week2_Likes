@@ -1,0 +1,181 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+/* body{
+    font-family: 'Roboto', sans-serif;
+    width: 1000px;
+    border: 2px solid black;
+    margin: 0 auto;
+    
+} */
+
+
+/* .box{
+    border: 2px solid black;
+    margin: 40px 40px 40px 320px;
+    padding: 20px;
+    width: 50%;
+    height: 100px;
+    font-size: 1.3rem;
+} */
+
+/* .top-box{
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .btn-like{
+    width: 100px;
+    height: 25px;
+    background-color: #FFD966;
+    box-shadow: 4px 4px black;
+    cursor: pointer;
+} */
+
+/* .text{
+    margin-top: 20px;
+} */
+
+/* h1{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 0px 40px 40px 40px;
+} */
+
+/* .middle{
+    text-align: center;
+    font-size: 1.7rem;
+} */
+
+/* .container{
+margin-right: 100px;
+margin-left: 100px;
+} */
+
+/* .left-box{ */
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: space-evenly; */
+    /* border: 2px solid black;
+    width: 25%;
+    height: 350px;
+    margin-left: 40px;
+} */
+
+/* img{
+    width: 100px;
+}
+
+.avatar{
+    text-align: center;
+}
+
+.james{
+    text-align: center;
+} */
+
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    /* width: 1000px; */
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1{
+    background-color: #222;
+    color:#fff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.middle{
+    text-align: center;
+    padding-bottom: 20px;
+    /* border-bottom: 2px solid #999; */
+    /* margin-bottom: 40px; */
+    font-size: 1.8rem;
+}
+
+.row{
+    display: flex;
+}
+
+.left-box{
+    flex: 1;
+}
+
+.user-james{
+    padding: 20px;
+    border: 2px solid #999;
+    text-align: center;
+}
+
+.picture{
+    /* height: 128px;
+    margin: 20px; */
+    width: 100px;
+}
+
+.avatar{
+    margin: 20px;
+    font-size: 1.1rem;
+}
+
+.james, .user{
+    font-size: 1.5rem;
+}
+
+.right-boxes{
+    flex: 2;
+    margin-left: 30px;
+}
+
+.box{
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #999;
+    /* font-size: 1.2rem; */
+    font-size: 1.3rem;
+    height: 100px;
+}
+
+.top-box{
+    /* height: 40px; */
+    height: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.btn-like{
+    background-color: #FFD966;
+    padding: 5px 10px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.text{
+    margin-left: 40px;
+    text-align: left;
+}

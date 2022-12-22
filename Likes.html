@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Likes.css">
+    <title>Likes</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Network</h1>
+        <p class="middle">Your Feed</p>
+        <div class="row">
+            <div class="left-box">
+                <div class="user-james">
+                    <img src="user-circle.png" alt="picture" class="picture">
+                    <p class="avatar"><a href="#">Add an Avatar</a></p>
+                    <p class="james">James Doe</p>
+                </div>
+            </div>
+            <div class="right-boxes">
+                <div class="box">
+                    <div class="top-box">
+                        <p class="user">Neil M</p>
+                        <p><span id="likes1">9</span> like(s)</p>
+                        <button onclick="addOne('likes1')" class="btn-like">Like</button>
+                    </div>
+                    <p class=text>I just set up this new discord bot, let me<br> know what you all think. <a href="#">
+                            link</a>
+                    </p>
+                </div>
+                <div class="box">
+                    <div class="top-box">
+                        <p class="user">Nichole K</p>
+                        <p><span id="likes2">12</span> like(s)</p>
+                        <button onclick="addOne('likes2')" class="btn-like">Like</button>
+                    </div>
+                    <p class=text>Just finished my <a href="#">next comic,</a> check it out.</p>
+                </div>
+                <div class="box">
+                    <div class="top-box">
+                        <p class="user">Jim R</p>
+                        <p><span id="likes3">9</span> like(s)</p>
+                        <button onclick="addOne('likes3')" class="btn-like">Like</button>
+                    </div>
+                    <p class=text>I can't stop listening to the <a href="#">new album.<br></a> Who else is liking it?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="Likes.js"></script>
+</body>
+
+</html>
